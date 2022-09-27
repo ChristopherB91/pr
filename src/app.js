@@ -47,11 +47,11 @@ function App() {
         </div>
         <div className="Content">
           <Switch>
-            <Route path="/" exact component={Homepage} />
-            <Route path="/Home" exact component={Homepage} />
-            <Route path="/Jobsearch" component={Search} />
-            <Route path="/Quotes" component={Apartments} />
-            <Route path="/ContactForm" component={ContactUs} />
+            <Route path="/ChristopherB91/pr" exact component={Homepage} />
+            <Route path="/ChristopherB91/Home" exact component={Homepage} />
+            <Route path="/ChristopherB91/Jobsearch" component={Search} />
+            <Route path="/ChristopherB91/Quotes" component={Apartments} />
+            <Route path="/ChristopherB91/ContactForm" component={ContactUs} />
           </Switch>
           <div id="footer">
             <footer>
